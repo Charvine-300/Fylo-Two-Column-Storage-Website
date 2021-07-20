@@ -1,0 +1,387 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-style: normal;
+    font-family: "Raleway";
+    src: url("raleway.css"),
+    local("Raleway Regular"),
+    local("Raleway-Regular");
+}
+
+@font-face {
+    font-style: normal;
+    font-family: "Open Sans";
+    src: local("Open Sans Regular"), 
+    local("OpenSans-Regular"),
+    url("opensans.css");
+}
+
+
+
+/*==========  ID Rules  ==========*/
+#starter-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#ender-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#third-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#last-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#second-email {
+    box-shadow: none;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+#second-submit {
+    box-shadow: none;
+}
+
+#error-message {
+    font-size: 15px;
+    text-align: left;
+    font-weight: lighter;
+    font-family: "Open Sans";
+}
+
+#terror-message {
+    font-size: 15px;
+    text-align: left;
+    font-weight: lighter;
+    font-family: "Open Sans";
+}
+
+#mobile-swirl {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 30px 0px 0px 0px;
+}
+
+#exhibit-uno {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 30px auto;
+}
+
+#exhibit-dous {
+    width: 85%;
+    height: 100%;
+    margin: 0px auto 30px auto;
+}
+
+#second-illustration {
+    width: 80%;
+    height: 100%;
+    padding: 0px;
+    margin: 50px auto;
+}
+
+#third-illustration {
+    width: 90%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px auto 100px auto;
+}
+
+#final-register {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: hsl(238, 22%, 44%);
+}
+
+#credits-bar {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: hsl(243, 87%, 12%);
+}
+
+
+/*==========  Class Rules  ==========*/
+.info {
+    padding: 30px;
+}
+
+.register-info {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.credits-info {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px 40px;
+}
+
+.access-info {
+    width: 100%;
+    height: 100%;
+    margin: 20% auto 10% auto;
+}
+
+.company-info {
+    width: 100%;
+    margin: 10% auto 10% 0%;
+}
+
+.second-logo {
+    margin: 20% auto 10% 0%;
+}
+
+.second-sub {
+    width: 100%;
+    height: 100%;
+    margin: 10% auto;
+}
+
+.second-dub {
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+    margin-bottom: 20%;
+}
+
+.third-heading {
+    font-size: 20px;
+    font-weight: bolder;
+    color: hsl(0, 0%, 100%);
+}
+
+.third-child {
+    font-size: 17px;
+    margin: 0px auto;
+    font-weight: lighter;
+    color: hsl(0, 0%, 100%);
+}
+
+.fourth-child {
+    margin: 0px;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    color: hsl(0, 0%, 100%);
+}
+
+.exhibit-one {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-fixer {
+    width: 100px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.menu-box {
+    float: right;
+    margin-right: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.dous-illustration {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.ender-container {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    background-color: #F8F8FE;
+}
+
+.second-paragraph {
+    margin: 13px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    color: hsl(0, 1%, 62%);
+}
+
+.arrow-activate {
+    width: 20px;
+    height: 20px;
+}
+
+.fylo-works {
+    margin-top: 20px;
+    display: inline;
+    margin-inline-end: 7px;
+    color: hsl(170, 45%, 43%);
+}
+
+.fourth-paragraph {
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.client-testimonial {
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 70px auto 40px auto;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 5px 8px hsl(0, 0%, 91%);
+}
+
+.client-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.client-name {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bolder;
+    font-family: "Open Sans";
+    margin: 30px 0px 0px 60px;
+}
+
+.activate-fylo {
+    padding: 10px 0px;
+    margin: 30px auto;
+    width: fit-content;
+    height: fit-content;
+    border-top:  2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+}
+
+
+/*==========  ELement Rules  ==========*/
+header {
+    width: 100%;
+    height: 100%;
+    margin: 40px auto 70px auto;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+li {
+    font-size: 13px;
+    display: inline;
+    font-weight: 600;
+    text-align: center;
+    padding-right: 10px;
+    font-family: "Raleway"; 
+    color: hsl(238, 22%, 44%);
+}
+
+span {
+    display: block;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 35px;
+    text-align: center;
+    font-family: "Raleway";
+    color: hsl(243, 87%, 12%);
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Raleway";
+    color: hsl(243, 87%, 12%);
+}
+
+p {
+    margin: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Open Sans";
+    color: hsl(243, 87%, 12%);
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    padding: 1px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    margin: 0px auto 10px auto;
+    background-color: transparent;
+    border: 1px solid hsl(243, 87%, 12%);
+    box-shadow: 3px 3px 3px 3px hsl(0, 0%, 91%);
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    margin: 7px auto;
+    padding: 1px 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Raleway";
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    border: 2px solid hsl(224, 93%, 58%);
+    box-shadow: 3px 3px 3px 3px hsl(0, 0%, 91%);
+}
+
+
+/*==========  Animation and Pseudo Rules  ==========*/
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+::placeholder {
+    font-family: "Open Sans";
+    color: hsl(0, 0%, 75%);
+}
+
+input:focus {
+    outline: none;
+}

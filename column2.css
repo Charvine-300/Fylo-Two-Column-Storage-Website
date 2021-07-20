@@ -1,0 +1,160 @@
+#starter-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+#ender-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+#third-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#last-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+/*==========  ID Rules  ==========*/
+#exhibit-uno {
+    width: 45%;
+    margin: 0px;
+    margin-right: 80px;
+}
+
+#exhibit-dous {
+    width: 40%;
+    margin-left: 80px;
+    margin-right: auto;
+}
+
+#second-illustration {
+    width: 45%;
+    margin-right: 80px;
+}
+
+#third-illustration {
+    width: 40%;
+    margin: 50px auto 80px 80px;
+}
+
+#second-email {
+   width: 100%;
+}
+
+#second-submit {
+    width: 50%;
+}
+
+#mobile-swirl {
+    margin-top: 170px;
+}
+
+/*==========  Class Rules  ==========*/
+.credits-info {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.second-logo {
+    width: 100%;
+    margin: 10% auto 0% 0%;
+}
+
+.second-dub {
+    margin-bottom: 7%;
+}
+
+.company-info {
+    width: 20%;
+    margin: 5% auto 5% 0%;
+}
+
+.logo-fixer {
+    margin-left: 80px;
+}
+
+.menu-box {
+    margin-right: 70px;
+}
+
+.second-paragraph {
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.activate-fylo {
+    margin-left: 0px;
+}
+
+.fylo-works {
+    font-size: 20px;
+}
+
+.client-testimonial {
+    width: 70%;
+    margin-left: 0px;
+}
+
+.register-info {
+    width: 90%;
+}
+
+.third-heading {
+    font-size: 35px;
+}
+
+.access-info {
+    width: 40%;
+    margin: 7% auto 10% 0px;
+}
+
+.second-sub {
+    width: 45%;
+    margin: 9% 0px 10% auto;
+}
+
+/*==========  ELement Rules  ==========*/
+li {
+    font-size: 17px;
+    padding-right: 17px;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: left;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+input {
+    width: 60%;
+    margin-right: 15px;
+}
+
+button {
+    width: 30%;
+}
