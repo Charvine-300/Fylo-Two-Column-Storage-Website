@@ -10,6 +10,9 @@ Built with:
 - Flexbox
 - Mobile-first workflow
 
+View Site Live at:
+https://fylo-column.netlify.app
+
 
 Author:
 Charvine Inc.
